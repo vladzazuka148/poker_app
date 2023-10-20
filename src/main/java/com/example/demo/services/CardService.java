@@ -11,7 +11,6 @@ import java.util.Map;
 public class CardService {
     public void findAndPrintCard(String card) {
         Map<String, Card> colodeForCompare = Card.colodeCardForCompare();
-
         System.out.println(colodeForCompare.get(card).toString());
     }
 }

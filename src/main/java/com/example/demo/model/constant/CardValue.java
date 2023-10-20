@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-public enum CardValue implements Comparable<CardValue>{
+public enum CardValue implements Comparable<CardValue> {
     ACE(14),
     KING(13),
     QUEEN(12),

@@ -10,9 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @EnableCaching
 public class Demo2Application {
-
-	public static void main(String[] args) {
-		SpringApplication.run(Demo2Application.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(Demo2Application.class, args);
+    }
 }

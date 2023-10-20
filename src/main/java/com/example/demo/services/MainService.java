@@ -96,11 +96,11 @@ public class MainService {
 
         for (int expectedSizeTableCard = tableCards.size();
              expectedSizeTableCard != 5;
-             expectedSizeTableCard++){
+             expectedSizeTableCard++) {
             tableCards.add(sessionCards.removeFirst());
         }
 
-        for (Player player:tablePlayers) {
+        for (Player player : tablePlayers) {
             player.setCombination(combinationService.checkCombination(tableCards, player.getHandCards()));
         }
 

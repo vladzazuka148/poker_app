@@ -26,6 +26,6 @@ public class Player {
         return "\nИгрок:" + "\nКарты: " + handCards +
                 "\nИмя: " + name +
                 "\nДеньги: " + moneyStack +
-                "\nТекущая комбинация: " + combination +"\n";
+                "\nТекущая комбинация: " + combination + "\n";
     }
 }

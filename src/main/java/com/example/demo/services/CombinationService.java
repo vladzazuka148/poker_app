@@ -165,13 +165,13 @@ public class CombinationService {
 
     private boolean twoPare(List<Card> cards) {
         {
-            HashMap<CardValue, Integer> frequencies = new HashMap<> ();
+            HashMap<CardValue, Integer> frequencies = new HashMap<>();
             for (Card card : cards) {
-                CardValue value = card.getValue ();
-                frequencies.put (value, frequencies.getOrDefault (value, 0) + 1);
+                CardValue value = card.getValue();
+                frequencies.put(value, frequencies.getOrDefault(value, 0) + 1);
             }
             int pairs = 0;
-            for (int count : frequencies.values ()) {
+            for (int count : frequencies.values()) {
                 if (count == 2) pairs++;
             }
             return pairs >= 2;

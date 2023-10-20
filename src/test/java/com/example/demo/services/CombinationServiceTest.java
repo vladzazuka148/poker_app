@@ -12,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CombinationServiceTest {
     private CombinationService combinationService = new CombinationService();
+
     @Test
     void checkCombination() {
         // GIVEN
@@ -21,7 +22,6 @@ class CombinationServiceTest {
         pare.add("KING CHERVA");
         pare.add("QUEEN CHERVA");
         pare.add("JACK CHERVA");
-
 
 
         // WHEN
